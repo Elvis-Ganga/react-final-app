@@ -1,6 +1,6 @@
 import "./App.css";
-//import Navbar from "./components/complex/Navbar";
-//import Footer from "./components/complex/Footer";
+import Navbar from "./components/complex/Navbar";
+import Footer from "./components/complex/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Menu from "./components/pages/Menu";

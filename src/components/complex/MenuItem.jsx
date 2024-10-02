@@ -1,7 +1,16 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import "../../styling/MenuItem.css";
 
-function MenuItem() {
-  return <div>MenuItem</div>;
+function MenuItem({ image, name, pdf}) {
+  return (
+    <div className="menuItem">
+      <div style={{ backgroundImage: `url(${image})` }}> </div>
+      <h1> {name} </h1>
+      <a href={pdf} target="_blank">
+        Download Pdf
+      </a>
+    </div>
+  );
 }
 
 export default MenuItem;

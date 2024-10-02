@@ -21,8 +21,8 @@
 .navbar .name {
   width: 70px;
   color: black;
-  
-   padding-left: 50px;
+  font-family: "time new roman";
+  padding-left: 50px;
 }
 .navbar .rightSide {
   flex: 50%;
