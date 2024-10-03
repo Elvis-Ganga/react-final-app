@@ -1,8 +1,8 @@
-
 import pdfCristi from "../../assets/Chateau-Cristi.pdf";
 import pdfCricova from "../../assets/Cricova-Winery.pdf";
 import pdfSamburesti from "../../assets/Domeniile-Samburesti.pdf";
-import pdfRecas from "../../assets/Recas.pdf"
+import pdfRecas from "../../assets/Recas.pdf";
+import pdfMurfatlar from "../../assets/Murfatlar.pdf";
 export const MenuList = [
   {
     name: "Cricova Winery",
@@ -23,5 +23,10 @@ export const MenuList = [
     name: "Recas Winery",
     image: "Recas-winery.jpg",
     pdf: pdfRecas,
+  },
+  {
+    name: "Murfatlar",
+    image: "Murfatlar.jpg",
+    pdf: pdfMurfatlar,
   },
 ];
