@@ -1,9 +1,11 @@
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: #7a0404c1;
   display: flex;
   flex-direction: row;
+  background: linear-gradient(150deg, #7a0404c1, #95c0ff,#7a0404c1);
+  
 }
 
 .navbar .leftSide {
@@ -33,9 +35,11 @@
 }
 
 .navbar a {
-  color: white;
+  color: rgb(17, 17, 17);
   text-decoration: none;
   margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar .rightSide button {

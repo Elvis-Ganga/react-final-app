@@ -17,14 +17,21 @@
 }
 
 .headerContainer h1 {
-  justify-content: center;
-  align-items: center;
+  text-align: left;
   font-size: 80px;
   height: 300px;
   color: black;
   font-family: "brock-script";
 }
+.headerContainer .center {
+  margin-left: 150px;
+  display: block;
+}
 
+.headerContainer .notcenter {
+  text-align: left;
+  display: block;
+}
 .headerContainer button {
   color: black;
   border: none;

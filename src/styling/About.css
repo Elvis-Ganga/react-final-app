@@ -3,8 +3,9 @@
   height: 90vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/about.jpg");
+  background-image: url("/menu1.jpg");
   background-size: cover;
+  /*background: linear-gradient(135deg, #bb6d7179, #2e558f);*/
 }
 
 .aboutTop {
@@ -26,6 +27,7 @@
 
 .aboutBottom p {
   width: 1200px;
+  font-size: 20px;
 }
 
 .about .aboutBottom h1 {

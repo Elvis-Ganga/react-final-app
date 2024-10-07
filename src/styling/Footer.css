@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
-  height: 200px;
-  background-color: #807575c1;
+  height: 120px;
+  background: linear-gradient(150deg, #7a0404c1, #95c0ff, #7a0404c1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,14 +10,16 @@
 }
 
 .socialMedia svg {
-  color: white;
+  color: rgb(10, 9, 9);
   margin: 20px;
-  font-size: 80px;
+  font-size: 40px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .footer p {
   color: white;
+  font-size: 25px;
 }
 .socialMedia svg:hover {
   background-color: rgb(225, 225, 225);

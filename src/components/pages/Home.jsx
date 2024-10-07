@@ -11,7 +11,8 @@ const Home = () => {
       <div className="home">
         <div className="headerContainer">
           <h1>
-            E <br></br>Wine Galery
+            <span className="center">E</span>
+            <span className="notcenter">Wine Galery</span>
           </h1>
 
           <Link to="/menu">

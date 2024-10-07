@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../complex/Navbar";
 import Footer from "../complex/Footer";
-
 import "../../styling/About.css";
 
 function About() {
@@ -22,7 +21,7 @@ function About() {
             creat o selecție menită să satisfacă toate gusturile și ocaziile.
             <br />
             <br />
-            Ce vei găsi pe site-ul nostru?
+            Ce vei găsi pe site-ul nostru ?
             <br />
             Colecții exclusiviste: Vinuri de soi, autohtone, pentru cunoscători
             și iubitori de vinuri.

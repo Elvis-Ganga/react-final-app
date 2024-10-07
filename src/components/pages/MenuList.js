@@ -15,7 +15,7 @@ export const MenuList = [
     pdf: pdfCristi,
   },
   {
-    name: "Domeniile Samburesti",
+    name: "Samburesti Areas",
     image: "Domeniile-Samburesti.jpg",
     pdf: pdfSamburesti,
   },
@@ -29,4 +29,10 @@ export const MenuList = [
     image: "Murfatlar.jpg",
     pdf: pdfMurfatlar,
   },
+  {
+    name: "Bohotin Areas",
+    image: "Bohotin.jpg",
+    pdf:"" ,
+  },
+  
 ];
