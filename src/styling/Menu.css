@@ -6,8 +6,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgba(121, 121, 83, 0.031);
-  /*background-image: url("/about.jpg");*/
-   background: linear-gradient(135deg, #cf90ff, #95c0ff);
+  background: linear-gradient(270deg, #ab9192, #9aaab1, #575160, #b9b1bf);
 }
 .menu .menuTitle {
   font-family: cursive;

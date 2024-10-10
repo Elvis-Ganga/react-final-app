@@ -6,9 +6,14 @@ function MenuItem({ image, name, pdf }) {
     <div className="menuItem">
       <div style={{ backgroundImage: `url(${image})` }}> </div>
       <h1> {name} </h1>
-      <a href={pdf} target="_blank">
-        Start Overview
-      </a>
+      {pdf ? (
+        <a href={pdf} target="_blank">
+          Start Overview
+        </a>
+      ) : (
+        <p>Meniul necesita actualizare</p>
+      )}
+      
     </div>
   );
 }

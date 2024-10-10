@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(150deg, #f5f2f27c, #647fa862, #ac414c7c);
 }
 
 .contact .rightSide h1 {
@@ -73,6 +74,7 @@ form button {
   width: 140px;
   height: 40px;
   border: none;
+  border-radius: 10px;
   background-color: #121619;
   color: whitesmoke;
   font-size: 15px;

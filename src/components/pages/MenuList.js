@@ -32,7 +32,11 @@ export const MenuList = [
   {
     name: "Bohotin Areas",
     image: "Bohotin.jpg",
-    pdf:"" ,
+    pdf: "",
   },
-  
+  {
+    name: "Cotnari Winery",
+    image: "menu3.jpg",
+    pdf:"",
+  },
 ];
